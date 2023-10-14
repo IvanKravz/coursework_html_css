@@ -27,7 +27,7 @@ h4 {
   line-height: 18px;
 }
 
-h5 {
+date {
   font-size: 12px;
   line-height: 40px;
 }
@@ -291,6 +291,8 @@ body {
 
 .date-author {
   padding: 10px 0;
+  font-size: 12px;
+  line-height: 40px;
 }
 
 .date {
@@ -301,14 +303,15 @@ body {
   opacity: 0.541;
 }
 
-.post-author {
+.author {
   display: inline-block;
   color: #000000;
   margin-left: 17px;
   text-transform: none;
+
 }
 
-.post__text {
+.post-text {
   padding-bottom: 14px;
 }
 
@@ -548,7 +551,7 @@ input:focus, .search-btn:focus, textarea:focus, select:focus {
   font-size: 13px;
 }
 
-.popup__title {
+.popup-title {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -571,13 +574,13 @@ input:focus, .search-btn:focus, textarea:focus, select:focus {
 }
 
 /*DROPDOWN*/
-.dropdown__select {
+.dropdown-select {
   width: 100%;
   position: relative;
   margin-bottom: 27px;
 }
 
-.dropdown__select select {
+.dropdown-select select {
   appearance: none;
   width: 100%;
   padding: 17px;
@@ -593,7 +596,7 @@ input:focus, .search-btn:focus, textarea:focus, select:focus {
   background-color: #f3f7f5;
 }
 
-.dropdown__select select:focus {
+.dropdown-select select:focus {
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
   border: 1px solid #b59f5b;
 }
@@ -677,7 +680,7 @@ input:focus, .search-btn:focus, textarea:focus, select:focus {
 }
 
 /*Button Close*/
-.popup__close {
+.popup-close {
   position: absolute;
   width: 24px;
   height: 24px;
@@ -709,11 +712,11 @@ input:focus, .search-btn:focus, textarea:focus, select:focus {
   flex-direction: column;
 }
 
-.shop-item__container {
+.shop-item-container {
   margin-bottom: -30px;
 }
 
-.shop-item__container img {
+.shop-item-container img {
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
@@ -722,7 +725,7 @@ input:focus, .search-btn:focus, textarea:focus, select:focus {
   padding: 0 23px;
 }
 
-.shop-item__content {
+.shop-item-content {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
@@ -730,14 +733,14 @@ input:focus, .search-btn:focus, textarea:focus, select:focus {
   padding: 20px 24px 0 24px;
 }
 
-.shop-item__title {
+.shop-item-title {
   color: #0f0d0e;
   text-decoration: none;
   text-align: left;
   margin: 16px 0;
 }
 
-.shop-item__text {
+.shop-item-text {
   font-size: 15px;
   font-weight: normal;
   text-transform: none;
@@ -764,7 +767,7 @@ input:focus, .search-btn:focus, textarea:focus, select:focus {
   /*align-items: flex-end;*/
 }
 
-.shop-item__price {
+.shop-item-price {
   color: #0f0d0e;
 }
 
