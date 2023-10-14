@@ -27,14 +27,14 @@ h4 {
   line-height: 18px;
 }
 
-date {
-  font-size: 12px;
-  line-height: 40px;
-}
-
 h6 {
   font-size: 9px;
   line-height: 11px;
+}
+
+date {
+  font-size: 12px;
+  line-height: 40px;
 }
 
 p {
